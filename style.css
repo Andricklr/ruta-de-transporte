@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+header {
+    background-color: #0078d4;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1em;
+}
+.ruta {
+    display: flex;
+    align-items: center;
+    background: white;
+    margin-bottom: 1em;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+.ruta img {
+    width: 150px;
+    height: auto;
+    object-fit: cover;
+}
+.ruta-content {
+    padding: 1em;
+    flex: 1;
+}
+.ruta-content h3 {
+    margin-top: 0;
+}
+.btn {
+    display: inline-block;
+    background-color: #0078d4;
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    border-radius: 4px;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+.btn:hover {
+    background-color: #005bb5;
+}
